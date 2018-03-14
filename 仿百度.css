@@ -1,0 +1,61 @@
+#u1{
+	font-family: "微软雅黑";
+	font-size:14px;
+	position:absolute;
+	right:10px;
+	top:15px;
+}
+.liebiao{
+	display: inline-block;
+	margin-right: 5px;
+}
+#img1{
+	text-align: center;
+	margin-top: 40px;
+}
+#search{
+
+    text-align: center;
+	
+}
+#shuru{
+	width:450px;
+	height:33px;
+	line-height: 33px;
+	margin-right:0px;
+	font-size: 18px;
+	}
+
+#百度一下{
+	width:80px;
+	height:40px;
+	background-color: #ddd;
+	font-family: "微软雅黑";
+	margin-left:0px;
+	font-size: 15px;
+}
+
+#daweiba{
+	margin-top:200px;
+	
+}
+
+#erweima{
+	text-align: center;
+    
+}
+#百度{
+	font-family: "微软雅黑";
+	color: #333333;
+
+}
+
+#weiba{
+	text-align: center;
+}
+.jiewei{
+	font-family: "微软雅黑";
+	font-size:14px;
+	display: inline-block;
+	margin-right: 15px;
+}
