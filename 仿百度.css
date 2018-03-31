@@ -1,9 +1,25 @@
+body{
+	margin:0;
+	padding:0;
+}
+
 #u1{
 	font-family: "微软雅黑";
 	font-size:14px;
 	position:absolute;
 	right:10px;
-	top:15px;
+	top:5px;
+}
+#u1 ul{
+	list-style: none;
+}
+#u1>ul li{
+	padding-left:16px;
+	float:left;
+}
+#u1>ul li a{
+	color:#000;
+	font-weight: bold;
 }
 .liebiao{
 	display: inline-block;
@@ -11,30 +27,38 @@
 }
 #img1{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 #search{
-
-    text-align: center;
-	
+    width:640px;
+   /* text-align: center;*/
+    margin:22px auto;
 }
 #shuru{
-	width:450px;
-	height:33px;
-	line-height: 33px;
+	width:540px;
+	height:34px;
+	line-height: 34px;
 	margin-right:0px;
 	font-size: 18px;
+	float: left;
+	padding:0;
 	}
 
 #百度一下{
-	width:80px;
-	height:40px;
-	background-color: #ddd;
+	width:100px;
+	height:38px;
+	background-color: #3385FF;
+	color: #fff;
 	font-family: "微软雅黑";
-	margin-left:0px;
+	margin-left:-5px;
 	font-size: 15px;
+	padding-left: -5px;
+	border:none;
+	cursor: pointer;
 }
-
+#百度一下:hover{
+    border:2px solid #2b74e2;
+}
 #daweiba{
 	margin-top:200px;
 	
@@ -46,16 +70,57 @@
 }
 #百度{
 	font-family: "微软雅黑";
+	font-weight:bold;
 	color: #333333;
-
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 12px;
 }
 
 #weiba{
 	text-align: center;
+}
+#weiba a{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaa;
 }
 .jiewei{
 	font-family: "微软雅黑";
 	font-size:14px;
 	display: inline-block;
 	margin-right: 15px;
+}
+#copyright{
+	text-align: center;
+	margin-top: 5px;
+}
+#copyright a{
+    /*text-decoration: none;*/
+    font-size: 12px;
+    font-family: "微软雅黑";
+	color: #aaa;
+}
+.non{
+	text-decoration: none;
+}
+#beihao{
+	padding-left: 15px;
+}
+.icon{
+	background:url(
+	 https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png
+	 );
+	background-repeat: no-repeat;
+	/*background-position: -623px -96px;*/
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	margin-top: 3px;
+}
+.police{
+	background-position:  -623px -96px;
+}
+.fish{
+	background-position: -600px -96px;
 }
